@@ -35,10 +35,10 @@ export const Skills = ({
     id
 }) => {
   return (
-    <div className='container skills-container' id={id}>
+    <div className='container skills-container p-5' id={id}>
         <h1>Skills</h1>
         <hr/>
-        <div className='row'>
+        <div className=''>
             {
                 skills.map( skill => {
                     return <h5 className='skill' key={skill}>{skill}</h5>
@@ -46,10 +46,13 @@ export const Skills = ({
             }
         </div>
         <br />
-        <h4>Programming Languages</h4>
-        <hr/>
-        <div>
-            <SkillBar skills={programmingSkills} height={'3vh'} animationDuration={2000} animationThreshold={0.8} colors={colors}/>
+        <br />
+        <div className='mt-5'>
+            <h4>Programming Languages</h4>
+            <hr/>
+            <div>
+                <SkillBar skills={programmingSkills} height={'3vh'} animationDuration={2000} animationThreshold={0.8} colors={colors}/>
+            </div>
         </div>
     </div>
   )

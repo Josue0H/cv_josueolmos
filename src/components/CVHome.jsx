@@ -22,7 +22,7 @@ export const CVHome = () => {
             <div className='col-md-4'>
                 <NavBar handleClick={handleClick}></NavBar>
             </div>
-            <div className='col'>
+            <div className='col-md'>
                 <Home id='home'/>
                 <Work id='work'/>
                 <Education id='education'/>

@@ -5,7 +5,7 @@ export const Work = ({
   id
 }) => {
   return (
-    <div className='container work-container' id={id}>
+    <div className='container work-container p-5' id={id}>
         <h1>Work</h1>
         <hr />
         <h4><b>MERN Developer</b></h4>

@@ -94,7 +94,7 @@ li {
 }
 
 hr {
-    border-top: 2px solid rgb(49, 60, 78);
+    border-top: 2px solid rgb(49, 60, 78) !important;
 }
 
 
@@ -192,4 +192,9 @@ hr {
     max-width: 33%;
     margin: 1rem;
     border-radius: 10px;
+}
+
+.img-interests:hover {
+    scale: 1.1;
+    transition: 0.5s;
 }

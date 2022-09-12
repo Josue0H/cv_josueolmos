@@ -9,12 +9,12 @@ export const NavBar = ({
         <h3>Josué Olmos</h3>
         <h6>Artificial Intelligence Engineer</h6>
         <ul>
-            <li className='nav-link' onClick={() => handleClick('home')}>Home</li>
-            <li className='nav-link' onClick={() => handleClick('work')}>Work</li>
-            <li className='nav-link' onClick={() => handleClick('education')}>Education</li>
-            <li className='nav-link' onClick={() => handleClick('skills')}>Skills</li>
-            <li className='nav-link' onClick={() => handleClick('interests')}>Interests</li>
-            <li className='nav-link' onClick={() => handleClick('contact')}>Contact</li>
+            <li className='nav-link p-1' onClick={() => handleClick('home')}>Home</li>
+            <li className='nav-link p-1' onClick={() => handleClick('work')}>Work</li>
+            <li className='nav-link p-1' onClick={() => handleClick('education')}>Education</li>
+            <li className='nav-link p-1' onClick={() => handleClick('skills')}>Skills</li>
+            <li className='nav-link p-1' onClick={() => handleClick('interests')}>Interests</li>
+            <li className='nav-link p-1' onClick={() => handleClick('contact')}>Contact</li>
         </ul>
         <ul className='ul-social-media'>
             <SocialIcon url='https://github.com/Josue0H' className='icon' bgColor='rgb(49, 60, 78)' fgColor='white'/>

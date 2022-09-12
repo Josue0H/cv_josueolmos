@@ -15,7 +15,7 @@ export const Education = ({
   id
 }) => {
   return (
-    <div className='container education-container' id={id}>
+    <div className='container education-container p-5' id={id}>
         <h1>Education</h1>
         <hr />
         <h4><b>Artificial Intelligence Engineering</b></h4>

@@ -45,9 +45,9 @@ export const Interests = ({
     }
 
   return (
-    <div className='container interests-container' id={id}>
+    <div className='container interests-container p-5' id={id}>
         <h1>Interests</h1>
-        <div className='row'>
+        <div className='container'>
             {
                 photos.map( photo => {
                     return <img src={photo} alt={photo} key={photo} className='img-interests'/>

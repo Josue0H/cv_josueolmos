@@ -6,7 +6,7 @@ export const Contact = ({
     id
 }) => {
   return (
-    <div className='container contact-container' id={id}>
+    <div className='container contact-container p-5' id={id}>
         <h1>Contact</h1>
         <div className='col m-3'>
             <AiOutlineMail size={35}/><span> olmos.josue00@gmail.com</span>
