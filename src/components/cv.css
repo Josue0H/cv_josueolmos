@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar-container {
+    position: relative;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 5rem;
+    background-color: rgb(49, 60, 78);
+    padding: 2rem;
+    color: white;
+    margin: 5rem 0 0 0;
+    border-radius: 10px;
+    max-height: auto;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+}
+
+.nav-bar ul{
+    all: unset;
+}
+
+li {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: rgb(49, 60, 78);;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.ul-social-media {
+    all: unset;
+    white-space: nowrap;
+    display: inline;
+}
+
+.ul-social-media .icon{
+    margin: 0.5rem;
+}
+
+.home-container {
+    margin: 5rem 0 0 0;
+    padding: 3rem;
+    background-color: #5C706F;
+    color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: center;
+    scroll-margin: 5rem 0 0 0;
+}
+
+.btn-blue {
+    all: unset;
+    margin-top: 20px;
+    background-color: rgb(49, 60, 78);
+    padding: 0.9rem;
+    border-radius: 30px;
+}
+
+.btn-blue:hover {
+    color: rgb(49, 60, 78);
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: white solid;
+    margin-bottom: 20px;
+}
+
+.work-container {
+    margin: 2rem 0 0 0;
+    padding: 3rem;
+    background-color: #DDE3E3;
+    color: rgb(49, 60, 78);
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: left;
+    scroll-margin: 5rem 0 0 0;
+}
+
+hr {
+    border-top: 2px solid rgb(49, 60, 78);
+}
+
+
+.work-container p{
+    color: grey;
+    font-style: italic;
+}
+
+.ul-tasks {
+    list-style: circle;
+}
+
+.education-container {
+    margin: 2rem 0 0 0;
+    padding: 3rem;
+    background-color: #D2DADA;
+    color: rgb(49, 60, 78);
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: left;
+    scroll-margin: 5rem 0 0 0;
+}
+
+.education-container h5 {
+    color: black;
+}
+
+.work-logo {
+    max-width: 200px;
+}
+
+
+.skills-container {
+    margin: 2rem 0 0 0;
+    padding: 3rem;
+    background-color: #D2DADA;
+    color: rgb(49, 60, 78);
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: left;
+    scroll-margin: 5rem 0 0 0;
+    min-width: 20%;
+}
+
+
+.skill{
+    color: black;
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 5px;
+    width: max-content;
+    float: left;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.skill:hover{
+    color: white;
+    background-color: rgb(49, 60, 78);
+    transition: 0.5s;
+}
+
+.contact-container {
+    margin: 2rem 0 0 0;
+    padding: 3rem;
+    background-color: #121616;
+    color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: left;
+    scroll-margin: 5rem 0 0 0;
+    margin-bottom: 5rem;
+}
+
+.interests-container {
+    margin: 2rem 0 0 0;
+    padding: 3rem;
+    background-color: #DDE3E3;
+    color: rgb(49, 60, 78);
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    box-shadow: 14px 10px 40px -13px rgba(0,0,0,0.17);
+    text-align: left;
+    scroll-margin: 5rem 0 0 0;
+}
+
+.img-interests {
+    max-width: 33%;
+    margin: 1rem;
+    border-radius: 10px;
+}
