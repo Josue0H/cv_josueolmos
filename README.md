@@ -14,7 +14,3 @@ yarn
 ```
 yarn dev
 ```
-
-4. La página esta alojada en Github Pages con la siguiente dirección
-
-__direccion__
